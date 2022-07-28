@@ -2,7 +2,6 @@ package bened.business.models;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.annotation.Id;
 
 import javax.persistence.*;
 
@@ -11,7 +10,8 @@ import javax.persistence.*;
 @Entity
 @Table(name="orders")
 public class Order {
-    @Id
+
+    @javax.persistence.Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id_pk")
     private Integer id;

@@ -1,4 +1,4 @@
-package bened.business;
+package bened.business.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
